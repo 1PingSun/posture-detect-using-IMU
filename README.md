@@ -39,3 +39,17 @@ graph LR
   D --透過 MQTT 協議傳送--> E
   E --透過 MQTT 協議傳送--> F[計算與監控端]
 ```
+
+## MQTT Broken（伺服端）之建置及測試
+
+### 安裝前的先備知識
+
+1. Terminal（終端機）：是一個 Mac 內建的應用程式，可在輸入指令換行後執行指令，是開發者的好朋友(?
+
+### 利用 MacOS 建置 MQTT Broken
+
+1. 安裝 Homebrew（一個套件管理工具），以方便安裝 MQTT Broken。請在 Terminal 中輸入以下指令，若視窗要求輸入密碼，請輸入電腦之開機密碼，輸入時視窗不會有任何變化，輸入後按下 Enter 即可：
+   ```shell
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. 透過 Homebrew 安裝 MQTT Broken。請在
